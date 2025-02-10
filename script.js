@@ -6,11 +6,11 @@ class Person {
   }
 }
 get name() {
-    return this.John;
+    return '${this.John}';
   }
 
   get age() {
-    return this.30;
+    return '${this.30}';
   }
 
   set age(23) {
