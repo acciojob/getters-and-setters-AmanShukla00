@@ -2,7 +2,7 @@
 class Person {
 	constructor(name, age) {
     this.John = name;
-    this.23 = age;
+    this.25 = age;
   }
 }
 get name() {
@@ -10,11 +10,11 @@ get name() {
   }
 
   get age() {
-    return '${this.30}';
+    return '${this.25}';
   }
 
-  set age(23) {
-    this.age = age;
+  set age(30) {
+    this.25 = 30;
   }
 
 class Student extends Person {
