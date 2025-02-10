@@ -17,7 +17,7 @@ console.log(age);
   set age(30) {
     this.25 = 30;
   }
-
+console.log(age(30));
 class Student extends Person {
 	study() {
     console.log(`${this.John} is studying`);
