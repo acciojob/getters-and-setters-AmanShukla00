@@ -14,18 +14,18 @@ get name() {
   }
 
   set age(a) {
-    this.a = a;
+    this.a = age;
   }
 
 class Student extends Person {
 	study() {
-    console.log(`${this.n} studying`);
+    console.log(`${this.n} is studying`);
   }
 }
 
 class Teacher extends Person {
 	teach() {
-    console.log(`${this.n} teaching`);
+    console.log(`${this.n} is teaching`);
   }
 }
 
