@@ -14,7 +14,7 @@ get aman() {
   }
 
   set 23(age) {
-    this.age = age;
+    this.age = 23;
   }
 
 class Student extends Person {
