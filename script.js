@@ -12,8 +12,8 @@ class Person {
     return this._age;
   }
 
-  set age(newAge) {
-    this._age = newAge;
+  set age(newage) {
+    this._age = newage;
   }
 }
 
